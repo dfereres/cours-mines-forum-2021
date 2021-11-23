@@ -1,24 +1,70 @@
-body #main-content div.box > a,
-a.special {
-  font-size: 18px;
-  font-weight: bold;
-  font-family: sans-serif;
+/** @format */
 
-  color: #000;
-  background-color: #fff;
+/*body #main-content div.box > a,
+a.special {
+	font-size: 18px;
+	font-weight: bold;
+	font-family: sans-serif;
+
+	color: #000;
+	background-color: #fff;
 }
 
 body #main-content {
-  position: relative;
+	position: relative;
 }
 
 body #main-content div.box > a,
 a.special {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  width: 100px;
-  height: 100px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 100px;
+	height: 100px;
 
-  display: block; /*hidden, inline, ...*/
+	display: block; //hidden, inline, ...
+}
+
+form label {
+	color: blue;
+}
+
+form input[type="text"] {
+	font-size: 20px;
+}
+
+form div > input[type="email"] {
+	position: absolute;
+}
+
+#Paragrapherouge {
+	position: relative;
+	top: -20px;
+	left: 300px;
+	color: red;
+	font-size: 10px;
+}*/
+
+#global {
+	font-size: 1em;
+	font-family: "Lucida Handwriting", cursive;
+	background-color: rgb(206, 203, 203);
+}
+#forum-wrapper {
+	height: 100vh;
+}
+
+#messages-container {
+	background-color: grey;
+	overflow: auto;
+}
+
+#new-message-container {
+	border-top: 10px solid rgb(206, 203, 203);
+	background-color: grey;
+	height: 250px;
+}
+
+#floatingTextarea {
+	height: 100px;
 }
